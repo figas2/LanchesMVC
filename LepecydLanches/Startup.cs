@@ -1,4 +1,6 @@
 ﻿using LepecydLanches.Context;
+using LepecydLanches.Repositories;
+using LepecydLanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace LepecydLanches;
@@ -17,6 +19,9 @@ public class Startup
         services.AddControllersWithViews();
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddTransient<ILancheRepository, LancheRepository>();
+        services.AddTransient<ICategoriaRepository, CategoriaRepository>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
