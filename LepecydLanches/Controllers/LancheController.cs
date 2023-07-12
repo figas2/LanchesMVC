@@ -1,4 +1,5 @@
 ﻿using LepecydLanches.Repositories.Interfaces;
+using LepecydLanches.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LepecydLanches.Controllers
@@ -14,8 +15,13 @@ namespace LepecydLanches.Controllers
 
         public IActionResult List()
         {
-            var lanches = _lancheRepository.Lanches;
-            return View(lanches);
+            //var lanches = _lancheRepository.Lanches;
+            //return View(lanches);
+            var lancheListViewModel = new LancheListViewModel();
+            lancheListViewModel.Lanches = _lancheRepository.Lanches;
+            lancheListViewModel.CategoriaAtual = "Categoria Atual";
+
+            return View(lancheListViewModel);
         }
     }
 }
