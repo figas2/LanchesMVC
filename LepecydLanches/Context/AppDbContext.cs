@@ -11,5 +11,7 @@ namespace LepecydLanches.Context
         //Tabelas que o EntityFrameWork vai criar
         public DbSet<Categoria> Categorias { get; set; }
         public DbSet<Lanche> Lanches { get; set; }
+        public DbSet<CarrinhoCompraItem> CarrinhoCompraItems { get; set; }
+
     }
 }
