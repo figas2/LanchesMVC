@@ -1,4 +1,5 @@
 ﻿using LepecydLanches.Context;
+using LepecydLanches.Models;
 using LepecydLanches.Repositories;
 using LepecydLanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ public class Startup
         services.AddTransient<ILancheRepository, LancheRepository>();
         services.AddTransient<ICategoriaRepository, CategoriaRepository>();
         services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+        services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
         services.AddMemoryCache();
         services.AddSession();
