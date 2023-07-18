@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mathe\OneDrive\Documentos\C#\ASP.NET Core Web MVC\LepecydLanches\LepecydLanches
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mathe/OneDrive/Documentos/C\#/ASP.NET Core Web MVC/LepecydLanches/LepecydLanches/Views/CarrinhoCompra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mathe/OneDrive/Documentos/C\#/ASP.NET Core Web MVC/LepecydLanches/LepecydLanches/Views/Home/Demo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZW1vLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\Images\\carousel13.jpg"
     },
     {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\lixeira.png",
+      "PackagePath": "staticwebassets\\Images\\lixeira.png"
+    },
+    {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\shoppingcart.png",
+      "PackagePath": "staticwebassets\\Images\\shoppingcart.png"
+    },
+    {
       "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
