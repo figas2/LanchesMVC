@@ -1,4 +1,6 @@
 ﻿using LepecydLanches.Models;
+using LepecydLanches.Repositories.Interfaces;
+using LepecydLanches.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -6,19 +8,20 @@ namespace LepecydLanches.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ILancheRepository _lancheRepository;
+
+        public HomeController(ILancheRepository lancheRepository)
+        {
+            _lancheRepository = lancheRepository;
+        }
+
         public IActionResult Index()
         {
-            return View();
-        }
-
-        public IActionResult Demo()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
+            var homeViewModel = new HomeViewModel
+            {
+                LanchesPreferidos = _lancheRepository.LanchesPreferidos
+            };
+            return View(homeViewModel);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
