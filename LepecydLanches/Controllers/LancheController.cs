@@ -31,12 +31,14 @@ namespace LepecydLanches.Controllers
                     lanches = _lancheRepository.Lanches
                         .Where(l => l.Categoria.CategoriaNome.Equals("Normal"))
                         .OrderBy(l => l.Nome);
+                    categoriaAtual = "Normais";
                 }
                 else
                 {
                     lanches = _lancheRepository.Lanches
                         .Where(l=>l.Categoria.CategoriaNome.Equals("Natural"))
                         .OrderBy(l => l.Nome);
+                    categoriaAtual = "Naturais";
                 }
             }
 
