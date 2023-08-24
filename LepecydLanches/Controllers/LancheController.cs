@@ -26,7 +26,7 @@ namespace LepecydLanches.Controllers
             }
             else
             {
-                if (string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
+                /*if (string.Equals("Normal", categoria, StringComparison.OrdinalIgnoreCase))
                 {
                     lanches = _lancheRepository.Lanches
                         .Where(l => l.Categoria.CategoriaNome.Equals("Normal"))
@@ -39,7 +39,10 @@ namespace LepecydLanches.Controllers
                         .Where(l=>l.Categoria.CategoriaNome.Equals("Natural"))
                         .OrderBy(l => l.Nome);
                     categoriaAtual = "Naturais";
-                }
+                }*/
+                lanches = _lancheRepository.Lanches
+                      .Where(a => a.Categoria.CategoriaNome.Equals(categoria));
+                categoriaAtual = categoria;
             }
 
             var lancheListViewModel = new LancheListViewModel

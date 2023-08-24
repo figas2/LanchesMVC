@@ -14,7 +14,7 @@ namespace LepecydLanches.Components
 
         public IViewComponentResult Invoke()
         {
-            var categorias = _categoriaRepository.Categorias.OrderBy(c => c.CategoriaNome);
+            var categorias = _categoriaRepository.Categorias.OrderBy(c=>c.CategoriaNome);
             return View(categorias);
         }
 
