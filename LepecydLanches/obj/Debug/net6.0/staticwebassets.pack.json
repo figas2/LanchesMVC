@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\Envelope-icon24.png"
     },
     {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\Images\\Full-Cart-icon.png"
+    },
+    {
       "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\Home-iconred.png",
       "PackagePath": "staticwebassets\\Images\\Home-iconred.png"
     },
@@ -29,20 +33,16 @@
       "PackagePath": "staticwebassets\\Images\\cart-5-16.ico"
     },
     {
+      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\delete.png",
+      "PackagePath": "staticwebassets\\Images\\delete.png"
+    },
+    {
       "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\faleconosco1.jpg",
       "PackagePath": "staticwebassets\\Images\\faleconosco1.jpg"
     },
     {
-      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\lixeira.ico",
-      "PackagePath": "staticwebassets\\Images\\lixeira.ico"
-    },
-    {
       "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\phone-app-icon.png",
       "PackagePath": "staticwebassets\\Images\\phone-app-icon.png"
-    },
-    {
-      "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\Images\\shoppingcart.png",
-      "PackagePath": "staticwebassets\\Images\\shoppingcart.png"
     },
     {
       "Id": "C:\\Users\\mathe\\OneDrive\\Documentos\\C#\\ASP.NET Core Web MVC\\LepecydLanches\\LepecydLanches\\wwwroot\\css\\site.css",
